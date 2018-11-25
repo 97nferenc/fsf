@@ -1,0 +1,144 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #eae5e1;
+
+}
+
+header {
+    background: -webkit-linear-gradient(180deg, rgb(170, 49, 49), rgb(82, 11, 11));
+    padding: 10px;
+    margin: 10px;
+	color: white;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+header img {
+    float: left;
+    margin: 20px 10px 0px 10px;
+}
+
+div#wrapper {
+    margin: 10px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+nav {
+	width: 200px;
+    margin: 0px 10px 0px 0px;
+    top: 0px;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+nav ul {
+	background-color: #2c3e49;
+	display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background-color: #293233;
+}
+
+nav ul li.active {
+    background-color: #900100;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #92989b;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+div#content {
+    display: table-cell;
+    width: 100%;
+    background-color: #2c3e49;
+    padding: 15px;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+p {
+	color: #92989b;
+	font-size: 20px;
+}
+
+h2 {
+	color: #ac3737;
+}
+
+h3 {
+	color: #92989b;
+}
+
+h4 {
+	color: #e3ce90;
+}
+
+li {
+	color: #92989b;
+	font-size: 20px;
+}
+a {
+	color: #ac3737;
+}
+
+div#content img{
+    float: right;
+    width: 20em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    background-color: #900100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div#video {
+	text-align: center;
+	background-color: #293233;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+div#csapat img{
+	width: 640px;
+	height: 446px;
+	background-color: #2c3e49;
+	float: right;
+}
+
+div#konyv1-3-5-7 img{
+	width: 160px;
+	height: 226;
+}
+
+div#konyv2-4-6 img{
+	float: left;
+	margin: 5px;
+	width: 160px;
+	height: 226px;
+}
+
+div#video2 {
+	text-align: center;
+	background-color: #293233;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+div#urlap {
+	color: #92989b;
+}
+
+footer {
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #293233;
+	color: #92989b;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
